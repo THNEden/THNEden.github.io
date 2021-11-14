@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://huangliangjie.top/links/linklist.json</loc>
+    
+    <lastmod>2021-11-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://huangliangjie.top/2021/10/17/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/</loc>
     
     <lastmod>2021-10-20</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://huangliangjie.top/links/index.html</loc>
     
     <lastmod>2021-10-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/links/linklist.json</loc>
-    
-    <lastmod>2021-10-15</lastmod>
     
   </url>
   
@@ -95,7 +95,7 @@
 
   <url>
     <loc>http://huangliangjie.top/</loc>
-    <lastmod>2021-10-20</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,7 +103,7 @@
   
   <url>
     <loc>http://huangliangjie.top/tags/Hexo/</loc>
-    <lastmod>2021-10-20</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -112,7 +112,7 @@
   
   <url>
     <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2021-10-20</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
