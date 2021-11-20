@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://huangliangjie.top/log/index.html</loc>
+    
+    <lastmod>2021-11-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://huangliangjie.top/links/index.html</loc>
     
     <lastmod>2021-11-14</lastmod>
@@ -95,7 +102,7 @@
 
   <url>
     <loc>http://huangliangjie.top/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,7 +110,7 @@
   
   <url>
     <loc>http://huangliangjie.top/tags/Hexo/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -112,7 +119,7 @@
   
   <url>
     <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
