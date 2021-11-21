@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/lib/fastclick/README.html</loc>
+    <loc>http://huangliangjie.top/lib/fastclick/default.json</loc>
     
     <lastmod>2021-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/lib/fastclick/default.json</loc>
+    <loc>http://huangliangjie.top/lib/fastclick/README.html</loc>
     
     <lastmod>2021-10-09</lastmod>
     
@@ -102,7 +102,7 @@
 
   <url>
     <loc>http://huangliangjie.top/</loc>
-    <lastmod>2021-11-20</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,7 +110,7 @@
   
   <url>
     <loc>http://huangliangjie.top/tags/Hexo/</loc>
-    <lastmod>2021-11-20</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -119,7 +119,7 @@
   
   <url>
     <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2021-11-20</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
