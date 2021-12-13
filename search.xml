@@ -6,6 +6,7 @@
     <content><![CDATA[<h1 id="在访问本站前，您所需要阅读的事项"><a href="#在访问本站前，您所需要阅读的事项" class="headerlink" title="在访问本站前，您所需要阅读的事项"></a><strong>在访问本站前，您所需要阅读的事项</strong></h1><ul>
 <li>更推荐您使用PC端访问本站哦</li>
 </ul>
+<hr>
 <span id="more"></span>
 
 
@@ -20,6 +21,16 @@
 ]]></content>
   </entry>
   <entry>
+    <title>2021年12月13日</title>
+    <url>/2021/12/03/2021%E5%B9%B412%E6%9C%8813%E6%97%A5/</url>
+    <content><![CDATA[<h1 id="国家公祭日"><a href="#国家公祭日" class="headerlink" title="国家公祭日"></a><strong>国家公祭日</strong></h1><ul>
+<li>谨记</li>
+<li>勿忘国耻，不忘初心</li>
+</ul>
+<hr>
+]]></content>
+  </entry>
+  <entry>
     <title>在Hexo NexT博客中使用阿里iconfont图标</title>
     <url>/2021/10/17/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前段时间在侧边栏中完善社交链接的时候发现了Font Awesome（以下称FA）的短处，在最新的FA v4.7.0中依然缺乏对部分图标的缺失，但Hexo的原始主题只内置支持了FA的图标库，如果需要使用更多图标就要引用其他图库的内容，于是这篇教程应运而生</p>
@@ -27,6 +38,7 @@
 <ul>
 <li>适用于<code>Hexo 5.4.0</code> | <code>NexT 7.8.0</code>，其他版本尚未测试</li>
 </ul>
+<hr>
 <span id="more"></span>
 
 <h2 id="前置工作"><a href="#前置工作" class="headerlink" title="前置工作"></a>前置工作</h2><p>在/themes/hexo/_config.yml（以下指主题配置文件）找到这段</p>
