@@ -133,14 +133,11 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
       path: window.location.pathname,
       visitor: false,
       placeholder: '进行一个评论的写',
-      master: '9b352fbbc1bc32337a0b1bdf758a6e93',
-      friends: [""],
-      tagMeta: ["博主","小伙伴","访客"]
     }, null))
   }
 
   if (typeof Valine === 'function') initValine() 
-  else getScript('https://fastly.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js').then(initValine)
+  else getScript('https://fastly.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
 }
 
 if ('Valine' === 'Valine' || !false) {
