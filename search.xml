@@ -1,58 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>2021年12月13日</title>
-      <link href="/2021%E5%B9%B412%E6%9C%8813%E6%97%A5/"/>
-      <url>/2021%E5%B9%B412%E6%9C%8813%E6%97%A5/</url>
-      
-        <content type="html"><![CDATA[<h1 id="国家公祭日"><a href="#国家公祭日" class="headerlink" title="国家公祭日"></a><strong>国家公祭日</strong></h1><ul><li>谨记</li><li>勿忘国耻，不忘初心</li></ul><hr>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>在Hexo NexT博客中使用阿里iconfont图标</title>
-      <link href="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/"/>
-      <url>/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前段时间在侧边栏中完善社交链接的时候发现了Font Awesome（以下称FA）的短处，在最新的FA v4.7.0中依然缺乏对部分图标的缺失，但Hexo的原始主题只内置支持了FA的图标库，如果需要使用更多图标就要引用其他图库的内容，于是这篇教程应运而生</p><p>这里以NexT主题为例，教学如何在侧边栏以及文章中插入<a href="https://www.iconfont.cn/">Iconfont</a>中的图标</p><ul><li>适用于<code>Hexo 5.4.0</code> | <code>NexT 7.8.0</code>，其他版本尚未测试</li></ul><hr><span id="more"></span><h2 id="前置工作"><a href="#前置工作" class="headerlink" title="前置工作"></a>前置工作</h2><p>在/themes/hexo/_config.yml（以下指主题配置文件）找到这段</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">custom_file_path:</span><br><span class="line">  #head: source/_data/head.swig</span><br><span class="line">  #header: source/_data/header.swig</span><br><span class="line">  #sidebar: source/_data/sidebar.swig</span><br><span class="line">  #postMeta: source/_data/post-meta.swig</span><br><span class="line">  #postBodyEnd: source/_data/post-body-end.swig</span><br><span class="line">  #footer: source/_data/footer.swig</span><br><span class="line">  #bodyEnd: source/_data/body-end.swig</span><br><span class="line">  #variable: source/_data/variables.styl</span><br><span class="line">  #mixin: source/_data/mixins.styl</span><br><span class="line">  #style: source/_data/styles.styl</span><br></pre></td></tr></table></figure><p>将style前的#号删去，如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">custom_file_path:</span><br><span class="line">  #head: source/_data/head.swig</span><br><span class="line">  #header: source/_data/header.swig</span><br><span class="line">  #sidebar: source/_data/sidebar.swig</span><br><span class="line">  #postMeta: source/_data/post-meta.swig</span><br><span class="line">  #postBodyEnd: source/_data/post-body-end.swig</span><br><span class="line">  #footer: source/_data/footer.swig</span><br><span class="line">  #bodyEnd: source/_data/body-end.swig</span><br><span class="line">  #variable: source/_data/variables.styl</span><br><span class="line">  #mixin: source/_data/mixins.styl</span><br><span class="line">  style: source/_data/styles.styl</span><br></pre></td></tr></table></figure><p>在/source/_data/中创建文件styles.styl</p><h2 id="图标配置"><a href="#图标配置" class="headerlink" title="图标配置"></a>图标配置</h2><p>进入iconfont官网：<a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p><p>注册一个账号，然后寻找你心仪的图标，选中后加入库中</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/01.png" alt></p><p>挑选完成后将加入库中的所有图标添加至项目中，第一次添加会提示创建新的项目，跟着走就行</p><p>随后可以在项目中看到自己添加进去的图标</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/02.png" alt></p><p>此时可以在项目中选中图标再次对图标进行操作</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/03.png" alt></p><p>只有图上的第一项与第三项需要我们注意</p><ul><li><strong>Unicode编码可以在后期更改，便于更换图标</strong></li><li><strong>Font Class  / Symbol项中为图标名称，在后续引用图标时需要用到</strong></li></ul><p>点击查看在线链接，并且切换到Font Class类型</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/04.png" alt></p><p>确认你在库中的图标无误后，点击生成链接</p><ul><li>之后每次在库中删除或添加图标时都需要重新生成一遍链接，原链接内容失效</li><li>在更换同类图标时，可以将上一个图标的Unicode编码与图标名称复制到新图标中，如此操作可以减少后续重新配置的工作量</li></ul><p>可以看到这样一串链接</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/05.png" alt></p><h2 id="文件配置"><a href="#文件配置" class="headerlink" title="文件配置"></a>文件配置</h2><p>直接点击上述链接可以进入一个网页</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/06.png" alt></p><p>将所有内容复制到/source/_data/styles.styl中你认为合适的地方</p><ul><li><strong>重新生成链接后，需要重新复制一次</strong></li></ul><p>其中</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@font-face &#123;</span><br><span class="line">  font-family: &quot;iconfont&quot;; /* Project id 2872004 */</span><br><span class="line">  src: url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.woff2?t=1634379221323&#x27;) format(&#x27;woff2&#x27;),</span><br><span class="line">       url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.woff?t=1634379221323&#x27;) format(&#x27;woff&#x27;),</span><br><span class="line">       url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.ttf?t=1634379221323&#x27;) format(&#x27;truetype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>font-family</code>后的<code>ionfont</code>可以理解为引用iconfont图标时的前置，类比引用FA图标库时使用的fa</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.iconfont &#123;</span><br><span class="line">  font-family: &quot;iconfont&quot; !important;</span><br><span class="line">  font-size: 16px;</span><br><span class="line">  font-style: normal;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>可以通过<code>font-size</code>调整所有图标的大小</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">.icon-coolapk:before &#123;</span><br><span class="line">  content: &quot;\e607&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-email:before &#123;</span><br><span class="line">  content: &quot;\e604&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-github:before &#123;</span><br><span class="line">  content: &quot;\e66f&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-bilibili:before &#123;</span><br><span class="line">  content: &quot;\e603&quot;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这是你在库中添加的图标</p><p><code>.icon-XXX:before &#123;</code> 中，XXX为你在库中设置的图标名</p><p><code>content</code>是该图标的Unicode编码，</p><p>可以对单个图标进行配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.icon-coolapk:before &#123;</span><br><span class="line">  content: &quot;\e607&quot;;</span><br><span class="line">  color: #21b95f; //颜色（也可以使用blue、black等单词）</span><br><span class="line">  font-size: 22px; //大小</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><p>当你完成了以上配置后，便可以在额外使用图标的博文中插入以下内容显示你的图标</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;i class=&quot;iconfont icon-XXX&quot;&gt;&lt;/i&gt;</span><br></pre></td></tr></table></figure><p>如果你需要在社交链接或菜单中引用你的图标，则需要</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//社交链接</span><br><span class="line">social:</span><br><span class="line">  XXX: https://XXX || iconfont icon-XXX</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//菜单</span><br><span class="line">menu:</span><br><span class="line">  XXX: /XXX/ || iconfont icon-XXX</span><br></pre></td></tr></table></figure><h2 id="后文"><a href="#后文" class="headerlink" title="后文"></a>后文</h2><p>当你在需要在iconfont的库中添加或删除图标时，可以使用以下方法来减少部分工作量</p><p>重新生成链接后，只需要复制新链接中并替换styles.styl中的</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/07.png" alt></p><p>如需删除图标，只需要在这部分删除对应描述即可</p><p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/08.png" alt></p><p>如需添加图标，按照上述格式添加即可</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>前言</title>
+    <url>/%E5%89%8D%E8%A8%80/</url>
+    <content><![CDATA[<h1 id="在访问本站前，您所需要阅读的事项"><a href="#在访问本站前，您所需要阅读的事项" class="headerlink" title="在访问本站前，您所需要阅读的事项"></a><strong>在访问本站前，您所需要阅读的事项</strong></h1><ul>
+<li>更推荐您使用PC端访问本站哦</li>
+</ul>
+<hr>
+<span id="more"></span>
+<h3 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h3><ul>
+<li>目前以个人博客的形式进行运营，<del>不排除以后加入更多功能</del>，敬请期待</li>
+</ul>
+<hr>
+<ul>
+<li>待编辑</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>2021年12月13日</title>
+    <url>/2021%E5%B9%B412%E6%9C%8813%E6%97%A5/</url>
+    <content><![CDATA[<h1 id="国家公祭日"><a href="#国家公祭日" class="headerlink" title="国家公祭日"></a><strong>国家公祭日</strong></h1><ul>
+<li>谨记</li>
+<li>勿忘国耻，不忘初心</li>
+</ul>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>在Hexo NexT博客中使用阿里iconfont图标</title>
+    <url>/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前段时间在侧边栏中完善社交链接的时候发现了Font Awesome（以下称FA）的短处，在最新的FA v4.7.0中依然缺乏对部分图标的缺失，但Hexo的原始主题只内置支持了FA的图标库，如果需要使用更多图标就要引用其他图库的内容，于是这篇教程应运而生</p>
+<p>这里以NexT主题为例，教学如何在侧边栏以及文章中插入<a href="https://www.iconfont.cn/">Iconfont</a>中的图标</p>
+<ul>
+<li>适用于<code>Hexo 5.4.0</code> | <code>NexT 7.8.0</code>，其他版本尚未测试</li>
+</ul>
+<hr>
+<span id="more"></span>
+<h2 id="前置工作"><a href="#前置工作" class="headerlink" title="前置工作"></a>前置工作</h2><p>在/themes/hexo/_config.yml（以下指主题配置文件）找到这段</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">custom_file_path:</span><br><span class="line">  #head: source/_data/head.swig</span><br><span class="line">  #header: source/_data/header.swig</span><br><span class="line">  #sidebar: source/_data/sidebar.swig</span><br><span class="line">  #postMeta: source/_data/post-meta.swig</span><br><span class="line">  #postBodyEnd: source/_data/post-body-end.swig</span><br><span class="line">  #footer: source/_data/footer.swig</span><br><span class="line">  #bodyEnd: source/_data/body-end.swig</span><br><span class="line">  #variable: source/_data/variables.styl</span><br><span class="line">  #mixin: source/_data/mixins.styl</span><br><span class="line">  #style: source/_data/styles.styl</span><br></pre></td></tr></table></figure>
+<p>将style前的#号删去，如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">custom_file_path:</span><br><span class="line">  #head: source/_data/head.swig</span><br><span class="line">  #header: source/_data/header.swig</span><br><span class="line">  #sidebar: source/_data/sidebar.swig</span><br><span class="line">  #postMeta: source/_data/post-meta.swig</span><br><span class="line">  #postBodyEnd: source/_data/post-body-end.swig</span><br><span class="line">  #footer: source/_data/footer.swig</span><br><span class="line">  #bodyEnd: source/_data/body-end.swig</span><br><span class="line">  #variable: source/_data/variables.styl</span><br><span class="line">  #mixin: source/_data/mixins.styl</span><br><span class="line">  style: source/_data/styles.styl</span><br></pre></td></tr></table></figure>
+<p>在/source/_data/中创建文件styles.styl</p>
+<h2 id="图标配置"><a href="#图标配置" class="headerlink" title="图标配置"></a>图标配置</h2><p>进入iconfont官网：<a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p>
+<p>注册一个账号，然后寻找你心仪的图标，选中后加入库中</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/01.png" alt></p>
+<p>挑选完成后将加入库中的所有图标添加至项目中，第一次添加会提示创建新的项目，跟着走就行</p>
+<p>随后可以在项目中看到自己添加进去的图标</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/02.png" alt></p>
+<p>此时可以在项目中选中图标再次对图标进行操作</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/03.png" alt></p>
+<p>只有图上的第一项与第三项需要我们注意</p>
+<ul>
+<li><strong>Unicode编码可以在后期更改，便于更换图标</strong></li>
+<li><strong>Font Class  / Symbol项中为图标名称，在后续引用图标时需要用到</strong></li>
+</ul>
+<p>点击查看在线链接，并且切换到Font Class类型</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/04.png" alt></p>
+<p>确认你在库中的图标无误后，点击生成链接</p>
+<ul>
+<li>之后每次在库中删除或添加图标时都需要重新生成一遍链接，原链接内容失效</li>
+<li>在更换同类图标时，可以将上一个图标的Unicode编码与图标名称复制到新图标中，如此操作可以减少后续重新配置的工作量</li>
+</ul>
+<p>可以看到这样一串链接</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/05.png" alt></p>
+<h2 id="文件配置"><a href="#文件配置" class="headerlink" title="文件配置"></a>文件配置</h2><p>直接点击上述链接可以进入一个网页</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/06.png" alt></p>
+<p>将所有内容复制到/source/_data/styles.styl中你认为合适的地方</p>
+<ul>
+<li><strong>重新生成链接后，需要重新复制一次</strong></li>
+</ul>
+<p>其中</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@font-face &#123;</span><br><span class="line">  font-family: &quot;iconfont&quot;; /* Project id 2872004 */</span><br><span class="line">  src: url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.woff2?t=1634379221323&#x27;) format(&#x27;woff2&#x27;),</span><br><span class="line">       url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.woff?t=1634379221323&#x27;) format(&#x27;woff&#x27;),</span><br><span class="line">       url(&#x27;//at.alicdn.com/t/font_2872004_duqcqe02604.ttf?t=1634379221323&#x27;) format(&#x27;truetype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>font-family</code>后的<code>ionfont</code>可以理解为引用iconfont图标时的前置，类比引用FA图标库时使用的fa</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.iconfont &#123;</span><br><span class="line">  font-family: &quot;iconfont&quot; !important;</span><br><span class="line">  font-size: 16px;</span><br><span class="line">  font-style: normal;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>可以通过<code>font-size</code>调整所有图标的大小</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.icon-coolapk:before &#123;</span><br><span class="line">  content: &quot;\e607&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-email:before &#123;</span><br><span class="line">  content: &quot;\e604&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-github:before &#123;</span><br><span class="line">  content: &quot;\e66f&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.icon-bilibili:before &#123;</span><br><span class="line">  content: &quot;\e603&quot;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这是你在库中添加的图标</p>
+<p><code>.icon-XXX:before &#123;</code> 中，XXX为你在库中设置的图标名</p>
+<p><code>content</code>是该图标的Unicode编码，</p>
+<p>可以对单个图标进行配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.icon-coolapk:before &#123;</span><br><span class="line">  content: &quot;\e607&quot;;</span><br><span class="line">  color: #21b95f; //颜色（也可以使用blue、black等单词）</span><br><span class="line">  font-size: 22px; //大小</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><p>当你完成了以上配置后，便可以在额外使用图标的博文中插入以下内容显示你的图标</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;i class=&quot;iconfont icon-XXX&quot;&gt;&lt;/i&gt;</span><br></pre></td></tr></table></figure>
+<p>如果你需要在社交链接或菜单中引用你的图标，则需要</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//社交链接</span><br><span class="line">social:</span><br><span class="line">  XXX: https://XXX || iconfont icon-XXX</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//菜单</span><br><span class="line">menu:</span><br><span class="line">  XXX: /XXX/ || iconfont icon-XXX</span><br></pre></td></tr></table></figure>
+<h2 id="后文"><a href="#后文" class="headerlink" title="后文"></a>后文</h2><p>当你在需要在iconfont的库中添加或删除图标时，可以使用以下方法来减少部分工作量</p>
+<p>重新生成链接后，只需要复制新链接中并替换styles.styl中的</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/07.png" alt></p>
+<p>如需删除图标，只需要在这部分删除对应描述即可</p>
+<p><img src="/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/08.png" alt></p>
+<p>如需添加图标，按照上述格式添加即可</p>
+]]></content>
       <categories>
-          
-          <category> 教程相关 </category>
-          
+        <category>教程相关</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前言</title>
-      <link href="/%E5%89%8D%E8%A8%80/"/>
-      <url>/%E5%89%8D%E8%A8%80/</url>
-      
-        <content type="html"><![CDATA[<h1 id="在访问本站前，您所需要阅读的事项"><a href="#在访问本站前，您所需要阅读的事项" class="headerlink" title="在访问本站前，您所需要阅读的事项"></a><strong>在访问本站前，您所需要阅读的事项</strong></h1><ul><li>更推荐您使用PC端访问本站哦</li></ul><hr><span id="more"></span><h3 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h3><ul><li>目前以个人博客的形式进行运营，<del>不排除以后加入更多功能</del>，敬请期待</li></ul><hr><ul><li>待编辑</li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
 </search>
