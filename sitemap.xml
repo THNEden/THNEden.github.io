@@ -2,23 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://huangliangjie.top/tools/Bot/index.html</loc>
+    <loc>http://huangliangjie.top/log/index.html</loc>
     
-    <lastmod>2022-07-20</lastmod>
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/about/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/tags/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/categories/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/message/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
     
   </url>
   
   <url>
     <loc>http://huangliangjie.top/funny/game/index.html</loc>
     
-    <lastmod>2022-07-07</lastmod>
+    <lastmod>2022-08-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/log/index.html</loc>
+    <loc>http://huangliangjie.top/tools/Bot/index.html</loc>
     
-    <lastmod>2022-06-08</lastmod>
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/links/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://huangliangjie.top/funny/game/index%20-%20%E5%89%AF%E6%9C%AC.html</loc>
+    
+    <lastmod>2022-07-07</lastmod>
     
   </url>
   
@@ -26,34 +68,6 @@
     <loc>http://huangliangjie.top/%E5%9C%A8Hexo%20NexT%E5%8D%9A%E5%AE%A2%E4%B8%AD%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8Ciconfont%E5%9B%BE%E6%A0%87/</loc>
     
     <lastmod>2022-05-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/links/index.html</loc>
-    
-    <lastmod>2022-05-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/tags/index.html</loc>
-    
-    <lastmod>2022-05-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/message/index.html</loc>
-    
-    <lastmod>2022-05-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/categories/index.html</loc>
-    
-    <lastmod>2022-05-23</lastmod>
     
   </url>
   
@@ -68,13 +82,6 @@
     <loc>http://huangliangjie.top/2021%E5%B9%B412%E6%9C%8813%E6%97%A5/</loc>
     
     <lastmod>2022-01-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://huangliangjie.top/%E5%89%8D%E8%A8%80/</loc>
-    
-    <lastmod>2021-12-13</lastmod>
     
   </url>
   
@@ -114,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/about/index.html</loc>
-    
-    <lastmod>2021-10-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://huangliangjie.top/hello-world.html</loc>
     
     <lastmod>2021-10-06</lastmod>
@@ -130,7 +130,7 @@
 
   <url>
     <loc>http://huangliangjie.top/</loc>
-    <lastmod>2022-07-28</lastmod>
+    <lastmod>2022-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,7 +138,7 @@
   
   <url>
     <loc>http://huangliangjie.top/tag/Hexo/</loc>
-    <lastmod>2022-07-28</lastmod>
+    <lastmod>2022-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -147,7 +147,7 @@
   
   <url>
     <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2022-07-28</lastmod>
+    <lastmod>2022-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
