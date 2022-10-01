@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://huangliangjie.top/tools/2203_IT_Project/index.html</loc>
+    
+    <lastmod>2022-09-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://huangliangjie.top/%E5%AD%A6%E6%9C%9F%E5%91%A8%E8%AE%B01/</loc>
     
     <lastmod>2022-09-30</lastmod>
@@ -107,14 +114,14 @@
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/lib/fastclick/README.html</loc>
+    <loc>http://huangliangjie.top/lib/fastclick/default.json</loc>
     
     <lastmod>2021-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/lib/fastclick/default.json</loc>
+    <loc>http://huangliangjie.top/lib/fastclick/README.html</loc>
     
     <lastmod>2021-10-09</lastmod>
     
@@ -130,22 +137,22 @@
 
   <url>
     <loc>http://huangliangjie.top/</loc>
-    <lastmod>2022-09-30</lastmod>
+    <lastmod>2022-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://huangliangjie.top/tag/Hexo/</loc>
-    <lastmod>2022-09-30</lastmod>
+    <loc>http://huangliangjie.top/tag/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2022-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/tag/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-09-30</lastmod>
+    <loc>http://huangliangjie.top/tag/Hexo/</loc>
+    <lastmod>2022-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -153,15 +160,15 @@
 
   
   <url>
-    <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2022-09-30</lastmod>
+    <loc>http://huangliangjie.top/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://huangliangjie.top/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-09-30</lastmod>
+    <loc>http://huangliangjie.top/categories/%E6%95%99%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2022-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
