@@ -6,7 +6,7 @@
   <link href="http://huangliangjie.top/atom.xml" rel="self"/>
   
   <link href="http://huangliangjie.top/"/>
-  <updated>2022-10-07T07:37:59.647Z</updated>
+  <updated>2022-10-16T15:22:05.904Z</updated>
   <id>http://huangliangjie.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浅谈关于AI绘画</title>
+    <link href="http://huangliangjie.top/%E6%B5%85%E8%B0%88%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/"/>
+    <id>http://huangliangjie.top/%E6%B5%85%E8%B0%88%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/</id>
+    <published>2022-10-16T15:01:32.000Z</published>
+    <updated>2022-10-16T15:22:05.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>一年前的某日，我较为系统地了解到关于AI的学习方式。大抵思路为建立训练模型，而后为训练模型灌入数据进行迭代，在不断迭代中得到较为满意的成果。当时的我对AI燃起了三分钟热度，想在春节之际利用余下的零花钱购买N卡，进行升级的同时满足训练AI的好奇心，无奈时值矿潮尾声，意志屈服于游戏，最后购入了6600xt。</p><p>从最近大热的某AI绘画平台中不难看出，AI的潜力不可估量。通过为模型灌入大量的图片进行训练，从而达到使AI自主进行作画的能力。表现形式为ACG文化的一部分，其功底已经超越大部分中低层画师，从而引发了关于该AI的讨论。我早早放弃了绘画，不能对其作出较之专业人士能够称之客观的评价，私以为这样的AI绘画对我最大的益处是能够为我的需求，低成本或零成本地绘制一张具有代表性的画作，从而使我需要的项目能够以相对方便且廉价的形式获得相对高质量的”独特性”，譬如为我的博客绘制看板娘、头像种种。</p><p>诚然，其上限远不止如此，希望能在今年春节之际真正实操。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一年前的某日，我较为系统地了解到关于AI的学习方式。大抵思路为建立训练模型，而后为训练模型灌入数据进行迭代，在不断迭代中得到较为满意的成果。当时的我对AI燃起了三分钟热度，想在春节之际利用余下的零花钱购买N卡，进行升级的同时满足训练AI的好奇心，无奈时值矿潮尾声，意志屈服于</summary>
+      
+    
+    
+    
+    <category term="与时俱进" scheme="http://huangliangjie.top/categories/%E4%B8%8E%E6%97%B6%E4%BF%B1%E8%BF%9B/"/>
+    
+    
+    <category term="杂谈" scheme="http://huangliangjie.top/tag/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>小站一周年</title>
