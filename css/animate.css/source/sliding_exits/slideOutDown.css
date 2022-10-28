@@ -1,0 +1,3 @@
+/* build time:Fri Oct 28 2022 11:22:20 GMT+0800 (GMT+08:00)*/
+@keyframes slideOutDown{from{transform:translate3d(0,0,0)}to{visibility:hidden;transform:translate3d(0,100%,0)}}.slideOutDown{animation-name:slideOutDown}
+/* rebuild by neat */
