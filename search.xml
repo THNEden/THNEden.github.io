@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>浅谈关于AI绘画</title>
-    <url>/%E6%B5%85%E8%B0%88%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一年前的某日，我较为系统地了解到关于AI的学习方式。大抵思路为建立训练模型，而后为训练模型灌入数据进行迭代，在不断迭代中得到较为满意的成果。当时的我对AI燃起了三分钟热度，想在春节之际利用余下的零花钱购买N卡，进行升级的同时满足训练AI的好奇心，无奈时值矿潮尾声，意志屈服于游戏，最后购入了6600xt。</p>
-<h2 id="看法"><a href="#看法" class="headerlink" title="看法"></a>看法</h2><p>从最近大热的某AI绘画平台中不难看出，AI的潜力不可估量。通过为模型灌入大量的图片进行训练，从而达到使AI自主进行作画的能力。表现形式为ACG文化的一部分，其功底已经超越大部分中低层画师，从而引发了关于该AI的讨论。我早早放弃了绘画，不能对其作出较之专业人士能够称之客观的评价，私以为这样的AI绘画对我最大的益处是能够为我的需求，低成本或零成本地绘制一张具有代表性的画作，从而使我需要的项目能够以相对方便且廉价的形式获得相对高质量的”独特性”，譬如为我的博客绘制看板娘、头像种种。</p>
-<p>诚然，其上限远不止如此，希望能在今年春节之际真正实操。</p>
+    <title>关于AI绘画</title>
+    <url>/%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大魔导师，堂堂登场！</p>
+<h2 id="看法"><a href="#看法" class="headerlink" title="看法"></a>看法</h2><p>从最近大热的某AI绘画平台中不难看出AI的潜力。其能力已经超越大部分中低层画师，甚至能够在程度上取而代之，这样的成长性是相当可怕的，可以预见的是这次的绘画AI只是起点，AI的能力只会越来越强大。</p>
+<p>我对此感到些许焦虑，如果机器的能力已经成长到能够再代替如今一部分人的工作时，那我该何去何从？或许往后的传统工作岗位会越来越少，取而代之的是全新的技术岗位，能够参考的经验越来越少，而我可能会成为站在风口吃螃蟹的那代人，倘若如此，种种不确定性又能为我带来什么？</p>
+<p>但现在看来应该还是我想多了，毕竟用AI画色图谁不爱呢，或许大部分人也只是尝个鲜罢了。</p>
 <hr>
-<h2 id="例照"><a href="#例照" class="headerlink" title="例照"></a>例照</h2><p><img src="/%E6%B5%85%E8%B0%88%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/01.png" alt></p>
-<p><img src="/%E6%B5%85%E8%B0%88%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/02.png" alt></p>
+<h2 id="例照"><a href="#例照" class="headerlink" title="例照"></a>例照</h2><p><img src="/%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/01.png" alt></p>
+<p><img src="/%E5%85%B3%E4%BA%8EAI%E7%BB%98%E7%94%BB/02.png" alt></p>
 ]]></content>
       <categories>
         <category>与时俱进</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
+        <tag>杂文</tag>
       </tags>
   </entry>
   <entry>
@@ -65,7 +66,7 @@
         <category>随笔</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
+        <tag>杂文</tag>
       </tags>
   </entry>
   <entry>
@@ -145,7 +146,7 @@
 <p>如需添加图标，按照上述格式添加即可</p>
 ]]></content>
       <categories>
-        <category>教程相关</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
