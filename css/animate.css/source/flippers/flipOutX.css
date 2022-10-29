@@ -1,3 +1,3 @@
-/* build time:Sat Oct 29 2022 23:58:27 GMT+0800 (GMT+08:00)*/
+/* build time:Sun Oct 30 2022 00:18:02 GMT+0800 (GMT+08:00)*/
 @keyframes flipOutX{from{transform:perspective(400px)}30%{transform:perspective(400px) rotate3d(1,0,0,-20deg);opacity:1}to{transform:perspective(400px) rotate3d(1,0,0,90deg);opacity:0}}.flipOutX{animation-duration:.75s;animation-name:flipOutX;backface-visibility:visible!important}
 /* rebuild by neat */
