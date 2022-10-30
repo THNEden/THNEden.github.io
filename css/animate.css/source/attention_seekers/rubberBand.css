@@ -1,3 +1,3 @@
-/* build time:Sun Oct 30 2022 00:18:02 GMT+0800 (GMT+08:00)*/
+/* build time:Sun Oct 30 2022 09:41:00 GMT+0800 (GMT+08:00)*/
 @keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}.rubberBand{animation-name:rubberBand}
 /* rebuild by neat */
